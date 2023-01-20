@@ -1,6 +1,6 @@
 # ASP.NET
 - task: SonarQubePostTest@1
-- task: MSBuild@1
+- task: MSBuild@
   inputs:
     solution: '**/*.sln'
     msbuildArchitecture: 'x64'
